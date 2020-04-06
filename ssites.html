@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Surrounding Sites</title>
+<meta charset="UTF-8">
+<link rel="icon" href="website_icon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+
+#a{
+  text-decoration: none;
+}
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-main img{
+  height: 200px;
+  width: 200px;
+}
+  #tab {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid #ddd;
+  }
+
+  #tab th, #tab td {
+      text-align: left;
+      padding: 8px;
+  }
+
+  #tab tr:nth-child(even){background-color: #f2f2f2}
+  #tab a{
+    color: blue;
+  }
+  img{
+  height:100px;width:100px;
+  }
+
+  a :hover{
+    text-decoration: none;
+    text-decoration-style: none;
+  }
+  </style>
+</head>
+<body>
+
+<div class="w3-bar w3-top w3-black w3-xlarge" style="z-index:4;background-color: cornflowerblue;">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button><br>
+  <span class="w3-bar-item w3-left"><em></em></span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px; background-color:#333; black;color: white;opacity: ;border-right: 2px solid #333;" id="mySidebar">
+<br>
+  <div class="w3-container"><br>
+    <table>
+      <tr>
+        
+        <td>
+          <img src="https://image.flaticon.com/icons/svg/432/432381.svg" style="width: 90px;height: 90px;">
+        </td>
+        <td>&ensp;</td>
+        <td>
+          <h3 style="color:dodgerblue;font-size: 20px;"><strong> CURIO-<br>"The Rocketopia"</strong></h3> 
+        </td>
+      </tr>
+    </table>
+    <hr>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-usesrs fa-fw"></i>Overview</a>
+    <a href="upcoming.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-sbank fa-fw"></i>Upcoming Launches</a>
+    <a href="viewOnline.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-diamonsd fa-fw"></i>View Launches Online</a>
+    <a href="agency.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-diamonsd fa-fw"></i>Organisation and Agencies</a>
+    <a href="spaceport.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-diamonsd fa-fw"></i>Spaceports</a>
+    <a href="ssites.html" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-besll fa-fw"></i>Real Time Experience</a>
+    <!--<a href="https://webvr.space/" class="w3-bar-item w3-button w3-padding" id="a"><i class="fa fa-besll fa-fw"></i>VR Experience</a>-->
+  </div>
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:35px;padding-left: 20px;padding-right: 20px;">
+<br>
+<br>
+<div class="container">
+
+  <table id="tab" class="table table-hover">
+    <thead class="dark">
+      <tr>
+        <th>IMAGE</th>
+        <th>SATELLITE</th>
+        <th>VIEW SITES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://spacenews.com/wp-content/uploads/2018/02/f9-govsat.jpg" alt="Avatar" style="width:200px"></td>
+        <td>Falcon-9 Es'hail 2</td>
+        <td><ul>
+        <li>Alan Shepard Beach<br></li>
+        <li>Canavarel National Seashore<br></li>
+        <li>Exploration Tower<br></li>
+
+        </ul>
+        <a href="https://goo.gl/maps/Q1GsXtYyQPQ2"><span class="glyphicon glyphicon-map-marker"></span> Click Here To View Map</a><br>
+        </td>
+
+      </tr>
+      <tr>
+        <td><img src="https://spaceflight101.com/wp-content/uploads/2017/10/29706136403_1fba77ce5f_o9.jpg" alt="Avatar" style="width:200px"></td>
+        <td>Antares NG-10</td>
+        <td><ul>
+        <li>Kennedy Space Center at Cape Canaveral<br></li>
+      	<li>Shores of the Indian River<br></li>
+      	<li>U.S. Space Walk of Fame<br></li>
+      	<li>Playalinda Beach<br></li>
+      	<li>U.S. Astronauts Hall of Fame<br></li>
+      	<li>Port Canaveral<br></li>
+      	<li>Cocoa Beach Pier<br></li>
+      	<li>The Space Coast<br></li>
+      	<li>Tampa<br></li>
+
+        </ul>
+        <a href="https://goo.gl/maps/Q1GsXtYyQPQ2"><span class="glyphicon glyphicon-map-marker"></span> Click Here To View Map</a><br>
+        </td>
+
+
+      </tr>
+      <tr>
+        <td><img src="https://i.ndtvimg.com/i/2018-03/isro-gslv-gsat-6a_650x400_51522142024.jpg" alt="Avatar" style="width:200px"></td>
+        <td>GSLV MK3 GSAT 29</td>
+        <td><ul>
+        <li>Pullicat Lake<br></li>
+
+        </ul>
+        <a href="https://goo.gl/maps/pFahxdpPcCy"><span class="glyphicon glyphicon-map-marker"></span> Click Here To View Map</a><br>
+        </td>
+
+      </tr>
+      <tr>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ariane_5ES_with_ATV_4_on_its_way_to_ELA-3.jpg/300px-Ariane_5ES_with_ATV_4_on_its_way_to_ELA-3.jpg" alt="Avatar" style="width:200px"></td>
+        <td>Ariane-5 Bepicolombo</td>
+          <td>
+          <ul>
+          <li>Surf Beach<br></li>
+          <li>Renwick Ave & West Ocean Ave<br></li>
+          <li>Harris Grade Rd<br></li>
+          
+          </ul>
+          <a href="https://www.google.com/maps/d/embed?mid=1scyvjUNKDZ3Gx2VSjn23GFJp-ryQsxS5"><span class="glyphicon glyphicon-map-marker"></span> Click Here To View Map</a>
+
+        </td>
+
+      </tr>
+      <tr>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/H_IIA_No._F23_with_GPM_on_its_way_to_the_launchpad.jpg/300px-H_IIA_No._F23_with_GPM_on_its_way_to_the_launchpad.jpg" style="width:200px"></td>
+        <td>H-2A GOSAT-2 & Khalifasat</td>
+        <td>
+          <ul>
+          <li>Tanegashima Island(3 Km from the space centre)<br>
+          </li>
+
+          </ul>
+        <a href="https://goo.gl/maps/XVq1nSSzisJ2"> <span class="glyphicon glyphicon-map-marker"></span> Here For Map</a><br>
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+</body>
+</html>
